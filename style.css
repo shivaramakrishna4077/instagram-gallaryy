@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h2,p {
+    color: white;
+    font-weight: bold;
+    padding:0px 15px;
+
+}
+.profile img{
+    height: 90px;
+    width:90px;
+    border-radius: 50%;
+
+}
+
+.main{
+    height: 800px;
+    width: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    border: 8px solid gray;
+    column-gap: 10px;
+    position: relative;
+
+}
+.details{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+.profile img{
+    margin:10px;
+}
+h3{
+    color: white;
+    font-weight: bold;
+     
+
+}
+.info{
+    margin:10px;
+    width: 400px;
+   margin-bottom: 20000px;
+    
+}
+.edit button{
+    width: 90%;
+    margin: 0px auto;
+    height: 30px;
+    background-color: black ;
+    color: white;
+    font-weight: bold;
+}
+  .edit button:hover{
+    background-color: gray;
+}
+.links button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin:0px 8px;
+    transition: 2 ease-in-out;
+}
+.links button:hover{
+    background-color: gray;
+}
+.gallry {
+ display: flex;
+ height: 90px;
+ margin: 10px;
+
+}
+.gallary2 {
+    display:flex;
+    height:90px;
+    margin: 10px;  
+    transition: 5sec ease-in-out;
+}
+.gallary2:hover{
+    background-color: aqua;
+}
